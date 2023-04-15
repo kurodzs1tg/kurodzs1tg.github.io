@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(22, 22, 22, 0);
+}
+.center h1{
+  text-align: center;
+  padding: 0px 0;
+  border-bottom: 1px solid #aaaaaa00;
+  color: white;
+}
+.center form{
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+form .TENDANGNHAP{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.TENDANGNHAP input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.TENDANGNHAP label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.TENDANGNHAP span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.TENDANGNHAP input:focus ~ label,
+.TENDANGNHAP input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.TENDANGNHAP input:focus ~ span::before,
+.TENDANGNHAP input:valid ~ span::before{
+  width: 100%;
+}
+
+form .MATKHAU{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.MATKHAU input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.MATKHAU label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.MATKHAU span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.MATKHAU input:focus ~ label,
+.MATKHAU input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.MATKHAU input:focus ~ span::before,
+.MATKHAU input:valid ~ span::before{
+  width: 100%;
+}
+
+form .GIATRITHECAO{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.GIATRITHECAO input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.GIATRITHECAO label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.GIATRITHECAO span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.GIATRITHECAO input:focus ~ label,
+.GIATRITHECAO input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.GIATRITHECAO input:focus ~ span::before,
+.GIATRITHECAO input:valid ~ span::before{
+  width: 100%;
+}
+
+form .MATHE{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.MATHE input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.MATHE label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.MATHE span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.MATHE input:focus ~ label,
+.MATHE input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.MATHE input:focus ~ span::before,
+.MATHE input:valid ~ span::before{
+  width: 100%;
+}
+
+form .SERI{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.SERI input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.SERI label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.SERI span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.SERI input:focus ~ label,
+.SERI input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.SERI input:focus ~ span::before,
+.SERI input:valid ~ span::before{
+  width: 100%;
+}
+
+
+form .TENMATHANGCANMUA{
+  position: relative;
+  border-bottom: 2px solid #000000ec;
+  margin: 20px 0;
+}
+.TENMATHANGCANMUA input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+.TENMATHANGCANMUA label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #cecece;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.TENMATHANGCANMUA span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background:white;
+  transition: .5s;
+}
+.TENMATHANGCANMUA input:focus ~ label,
+.TENMATHANGCANMUA input:valid ~ label{
+  top: -5px;
+  color: #00ffea;
+}
+.TENMATHANGCANMUA input:focus ~ span::before,
+.TENMATHANGCANMUA input:valid ~ span::before{
+  width: 100%;
+}
+
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #9A07FF ;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  border-color: #2691d9;
+  transition: .5s;
+}
+.signup_link{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+.signup_link a{
+  color: #ff0000;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+.about {
+  margin: 0px 0;
+  text-align: center;
+  font-size: 11px;
+  color: #6cfaff;
+}
