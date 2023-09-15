@@ -1,0 +1,63 @@
+.loader-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 2500ms cubic-bezier(0.5,0,0,1);
+    transition-delay: 500ms;
+  }
+  
+  .loader-wrapper.show {
+    top: -120%;
+  }
+  
+    .ice-snow {
+      width: 85px;
+    }
+  
+    .etylix_logo {
+      height: 51px;
+      position: absolute;
+      padding: 0 0 0 7px;
+    } 
+  
+  .cls-1 {
+    fill: #7aaaea;
+  }
+  
+    @keyframes breathing {
+      0% {
+        -webkit-filter: opacity(0.3);
+      }
+    
+      50% {
+        -webkit-filter: opacity(1);
+      }
+    
+      100% {
+        -webkit-filter: opacity(0.3);
+      }
+    }
+  
+    @media (prefers-color-scheme: dark) {
+        .loader-wrapper, .loader {
+          background-color: rgb(255, 255, 255);
+        }
+        path {
+          fill: white;
+        } 
+    }
+    @media screen and (orientation: portrait) {
+  
+      .etylix_logo {
+          padding: 0 0 77px 7px;
+      }
+  }
